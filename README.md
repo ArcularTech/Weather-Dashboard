@@ -13,7 +13,8 @@ CSS
 JavaScript
 Weather API
 Demo
-Insert a screenshot or gif here if available.
+![{9E9B7E1F-D8F6-49F9-948B-26C642AB2E8F}](https://github.com/user-attachments/assets/98271a7f-79ad-45fa-8dcc-4aee7c35a3cb)
+
 
 Installation
 Clone the repository:
