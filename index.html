@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Weather Dashboard</h1>
+    
+        <!-- Input Container -->
+        <div class="input-container">
+            <input type="text" id="cityInput" placeholder="Enter City Name">
+            <button onclick="getWeather()">Get Weather</button>
+        </div>
+    
+        <!-- Location Information -->
+        <div class="location-info" id="locationInfo" style="display: none;">
+            <h2 id="locationName"></h2>
+        </div>
+    
+        <!-- Weather Container -->
+        <div class="weather-container" id="weatherContainer">
+            <div class="weather-info">
+                <div class="weather-category">
+                    <h3>Temperature</h3>
+                    <p id="temperature"></p>
+                </div>
+                <div class="weather-category">
+                    <h3>Weather</h3>
+                    <p id="weather"></p>
+                </div>
+                <div class="weather-category">
+                    <h3>Humidity</h3>
+                    <p id="humidity"></p>
+                </div>
+                <div class="weather-category">
+                    <h3>Wind</h3>
+                    <p id="wind"></p>
+                </div>
+                <div class="weather-category">
+                    <h3>Pressure</h3>
+                    <p id="pressure"></p>
+                </div>
+                <div class="weather-category">
+                    <h3>Feels Like</h3>
+                    <p id="feelsLike"></p>
+                </div>
+                <div class="weather-category">
+                    <h3>Visibility</h3>
+                    <p id="visibility"></p>
+                </div>
+                <div class="weather-category">
+                    <h3>UV Index</h3>
+                    <p id="uvIndex"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

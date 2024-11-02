@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('bg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: yellow;
+}
+
+#app {
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Input container styling */
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s;
+}
+
+/* Hover effect for input container */
+.input-container:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Input field styling */
+input {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+    color: #333;
+    width: 200px;
+}
+
+/* Placeholder styling for input field */
+input::placeholder {
+    color: #bbb;
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Hover effect for button */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Initially hidden weather container */
+.weather-container {
+    display: none;
+}
+
+/* Weather information layout */
+.weather-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Individual weather category styling */
+.weather-category {
+    flex: 1 1 30%;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, background 0.3s;
+}
+
+/* Hover effect for weather category cards */
+.weather-category:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Weather category title styling */
+.weather-category h3 {
+    margin-bottom: 10px;
+    color: #ffdd44;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.location-info {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.location-info h2 {
+    color: #ffdd44;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
